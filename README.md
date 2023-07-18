@@ -1,0 +1,6 @@
+- This project includes a basic Bucket4j implementation
+- For more complicated cases, for example distributed systems, redis, hazelcast etc. tools need to be used.
+- Bucket4j implements Token Bucket Algorithm. 
+- Refill: Time indicator that bucket will be refilled.
+- Bandwidth: How much bandwith the bucket has.
+- Bucket: Main object of process. İncludes refill and bandwidth.
